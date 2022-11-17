@@ -55,50 +55,78 @@
 
 /* Number Eight */
 .container-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 
 }
 
 /* Number Nine */
 .container-9 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
 
 }
 
 /* Number Ten */
 .container-10 {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 /* Number Eleven */
 .container-11 {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
 }
 
 /* Number Twelve */
 .container-12 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 
 .nerf-12 {
     background-color: blue;
+    align-self: flex-end;
+
     
 }
 
 /* Number Thirteen */
 .container-13 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
 
 }
 
 .nerf-13 {
     background-color: blue;
-
+    
+    
 }
 
 /* Number Fourteen */
 .container-14 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
 
 }
 
 .nerf-14 {
     background-color: blue;
+    align-self: flex-start;
 
 }
